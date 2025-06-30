@@ -1,9 +1,4 @@
-function toggleTheme() {
-  document.body.classList.toggle("dark");
-  const btn = document.querySelector(".toggle-btn");
-  btn.textContent = document.body.classList.contains("dark") ? "Light Mode" : "Dark Mode";
-  localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
-}
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const sections = document.querySelectorAll("section");
