@@ -69,24 +69,6 @@ nav ul li a.active::after {
   left: 0;
 }
 
-.toggle-btn {
-  position: fixed;
-  right: 16px;
-  top: 16px;
-  z-index: 1000;
-  background: var(--primary);
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-}
-
-.toggle-btn:hover {
-  background: darkorange;
-  transform: scale(1.05);
-}
 
 section {
   min-height: 100vh;
